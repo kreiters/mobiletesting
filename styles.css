@@ -2,7 +2,14 @@
     box-sizing: border-box;
 }
 
+body,html{
+    margin:0;
+    padding:0;
+  }
+
 .wrapper{
+    top: 0;
+    left:0;
     width: 100vw;
     height: 100vh;
     background-color: tomato;
@@ -13,14 +20,29 @@
 }
 
 #btn{
-    top: 20%;
-    position: absolute;
+    /*top: 100px;*/
+    top: 10%;
+    display: block;
+    position: relative;
     left: 0;
     right: 0;
     margin: auto;
-    width: 60vw;
-    font-size: 1.5em;
-    padding: .25em;
+    width: auto;
+    font-size: 22px;
+    color: black;
+    background-color: aqua;
+    border-radius: 8px;
+}
+
+#xBtn{
+    top: 20%;
+    display: block;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: auto;
+    font-size: 22px;
     color: black;
     background-color: aqua;
     border-radius: 8px;
