@@ -34,10 +34,6 @@ body,html{
     border-radius: 8px;
 }
 
-.vitamin{
-    width: 90vw;
-    background-color: gray;
-
 #xBtn{
     top: 20%;
     display: block;
@@ -50,4 +46,9 @@ body,html{
     color: black;
     background-color: aqua;
     border-radius: 8px;
+}
+
+.vitamin{
+    width: 90vw;
+    background-color: gray;
 }
