@@ -62,7 +62,7 @@ body,html{
     width: 85vw;
     max-width: 600px;
     height: 35vmin;
-    min-height: 200px;
+    min-height: 300px;
     background-color: gray;
     border-radius: 40vmin/50vmin;
 }
