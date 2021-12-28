@@ -60,6 +60,7 @@ body,html{
     right: 0;
     margin: auto;
     width: 85vw;
+    max-width: 600px;
     height: 35vmin;
     background-color: gray;
     border-radius: 40vmin/50vmin;
