@@ -177,7 +177,7 @@ body,html{
 }*/
 
 .topics li{
-    height: auto;
+    height: 50%;
 }
 
 .topics li:hover, .days li:hover, .months li:hover{
