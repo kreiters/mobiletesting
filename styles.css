@@ -82,14 +82,14 @@ body,html{
     width: 100%;
 }
 
-.topics{
+/*.topics{
     /*right: 550px;*/
     margin-left: 10%;
     margin-right: 50%;
     order: 1;
-}
+}*/
 
-.days{
+.topics{
     /*display: flex;*/
     order: 2;
     margin-left: 100%;
@@ -167,16 +167,16 @@ body,html{
     z-index: 10;
 }
 
-.topics li, .months li{
+/*.topics li, .months li{
     
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+}*/
 
-.days li{
+.topics li{
     height: auto;
 }
 
