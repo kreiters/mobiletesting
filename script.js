@@ -449,8 +449,8 @@ function updateQuote() {
 }
 
 function openMenu() {
-  window.open('mobiletesting/pages/salvation.html', "_self");
+  window.open('./pages/salvation.html', "_self");
 }
 function openLetter() {
-  window.open('mobiletesting/assets/letters/hope.html', "_self");
+  window.open("./assets/letters/hope.html', "_self");
 }
