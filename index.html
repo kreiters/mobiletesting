@@ -4,36 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobile Test page</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Spiritual Vitamins</title>
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="phone.css">
 </head>
 <body>
     <div class="wrapper">
-        <div class="display"></div>
-        <!--<button id="btn">get pixel density</button>
-        <button id="xBtn">get screen res</button>-->
-        <div class="navBar">
-                <nav class="navControls">
-                    <div class="dropdown">
-                        <div class="topics">
-                            <button>Topics</button>
-                            <ul>
-                                <li>
-                                    <a href="#">1st topic</a>
-                                </li>
-                                <li>
-                                    <a href="#">2nd topic</a>
-                                </li>
-                            </ul>
-                        </div>
+        <header class="header"> <!-- header and topnav only used in widescreen views -->
+            <div class="topnav">
+                <a class="active" href="#home">Home</a>
+                <a href="/pages/salvation.html">How to be saved</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+              </div> 
+        </header>
+        <div onClick="openMenu()" class="menu" id="menuBtn">More...</div>
+        <div class="content">
+            <div class="dropdown">
+                <button onclick="seriesSelect()" class="dropbtn">Select a Series</button>
+                <div id="myDropdown" class="dropdown-content">
+                <a href="#">Noah_1</a>
+                <a href="#">Noah_2</a>
+                <a href="#">Evil</a>
+                <a href="#">Forgiveness</a>
+                <a href="#">Happiness</a>
+                <a href="#">Pray</a>
+                <a href="#">Spirit</a>
+                <a href="#">Study</a>
+                <a href="#">Sword</a>
+                <a href="#">Thankful</a>
+                <a href="#">Think</a>
+                <a href="#">Hope</a>
+                </div>
+                <div class="title">Spiritual Vitamins</div>
+            </div>
+            <div class="selection" id="selectedSeries"></div>
+            
+            <div class="vitamin">
+                <div class="day-controls">
+                        <div onclick="prev()" class="left-arrow" id="prev"></div>
+                    <!-- <button onclick="prev()" class="prevDayBtn" id="prev"></button> -->
+                    <div class="day" id="day-display"></div>
+                        <div onclick="next()" class="right-arrow" id="next"></div>
+                    <!-- <button onclick="next()" class="nextDayBtn" id="next"></button>  -->
+                </div>
+                <div class="front">
+                    <div class="instructions" id="show-instructions">
+                        <h2>Instructions:</h2>
+                        <p>1) Click Select a Series button</p>
+                        <p>2) Click Vitamin to get verse</p>
+                        <p>3) Click verse to get quote</p>
+                        <p>4) Click arrows to change day</p>
                     </div>
-                </nav>
-        </div>
-        <div class="vitamin">
-            <div class="front">
-                <div class="front-text">Vitamin Front</div>
+                    <img class="front-content" id="show-selection"></img>
+                    <div class="scripture" id="scripture"></div>
+                    <div onclick="openLetter()" class="letter-button" id="letterBtn">
+                        
+                            <div class="page">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae labore aut et earum molestiae corrupti odio ipsum harum dicta, perspiciatis necessitatibus ipsam impedit ipsa deleniti iusto architecto quod dignissimos reprehenderit commodi in voluptatem! Adipisci, omnis similique incidunt deserunt nisi numquam quasi fugit nam libero voluptatem culpa earum tempore fuga consequatur velit, delectus quae repellendus commodi qui perferendis! Animi asperiores perferendis laudantium nisi voluptatem repellendus sequi sint eum sed! Maiores non aspernatur doloremque quod soluta, numquam earum assumenda ex in saepe rerum eius tempore ab ipsa pariatur eveniet, libero nostrum! Iusto perferendis mollitia atque commodi. Vitae consectetur ratione harum optio unde accusamus corporis saepe debitis fugiat autem, cum nisi dolorem, odio mollitia impedit itaque commodi quis eveniet soluta beatae. Obcaecati non minus dignissimos atque libero nobis error possimus, consequatur temporibus ab nam accusamus eius officia tenetur itaque id cupiditate explicabo ex aperiam sit recusandae beatae. Nulla hic explicabo laudantium corporis non fugiat architecto iste cupiditate iure sequi. Sint expedita aut nobis omnis, velit iusto provident dignissimos ducimus, esse ad voluptates dolor perferendis voluptatibus, nihil illo deleniti! Cum repellat hic aliquam placeat perferendis autem nulla amet iste unde in, recusandae similique error animi totam qui, vero porro adipisci. Quidem vitae, nostrum provident dignissimos, sunt, laboriosam soluta mollitia cupiditate doloribus quasi quas eius inventore aliquid aliquam! Nulla vero ut perspiciatis voluptas, nesciunt veritatis magnam odit sed vitae id nihil tenetur, accusantium mollitia harum quod dolore porro tempora velit reiciendis excepturi. Fugiat odio explicabo ea, numquam autem non modi beatae iste reprehenderit ut in voluptatibus cupiditate libero. Voluptatem voluptates necessitatibus, id minima voluptas cumque error neque, maiores rem ipsa blanditiis fuga sint dolorem a aliquam officiis ad vel ab delectus! Inventore consequuntur, iure dicta nihil dolores incidunt vero dolorem illo ab rerum distinctio atque dolorum quis tempore minus voluptate cum! Aperiam tenetur iste, accusantium molestiae earum harum sunt quis labore. Praesentium dicta consectetur vel. Similique sapiente deserunt facere sed asperiores vel nisi modi nostrum ullam dignissimos dolor veritatis perferendis, a debitis eveniet repudiandae officia eos! Laboriosam, corporis a necessitatibus perferendis voluptatibus eligendi molestias autem esse. Quos hic quam sapiente eveniet id porro repellat eos in laboriosam fuga, laborum unde numquam? Facilis eius maxime debitis? Mollitia quia neque ullam nihil, nulla tempora doloremque? Ad, dolores earum ut ipsam hic perspiciatis.</div>
+                            <div class="glass" id="glass"></div>
+                        
+                    </div>
+                </div>
             </div>
         </div>
+        <nav class="nav nav-1">
+            <!-- <aside class="aside aside-2">Aside 2</aside> -->
+            <div class="bottle">
+                <h1>Spiritual Vitamins</h1>
+            </div>
+            </nav>
+            <footer class="footer">Scroll the latest news here...</footer>
     </div>
 
     <script src="script.js"></script>
