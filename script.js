@@ -452,5 +452,5 @@ function openMenu() {
   window.open('./pages/salvation.html', "_self");
 }
 function openLetter() {
-  window.open("./assets/letters/hope.html', "_self");
+  window.open('./assets/letters/hope.html', "_self");
 }
