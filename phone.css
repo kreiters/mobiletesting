@@ -47,6 +47,7 @@
         transform: rotateZ(-45deg);
         font-size: 1.5rem;
         z-index: 10;
+       cursor: pointer;
       }
       
       .info {
@@ -196,6 +197,7 @@
           border-width: 25px 25px 25px 0px;
           height: 0px;
           width: 0px;
+         cursor: pointer;
         }
       
         .left-arrow:hover {
@@ -263,6 +265,7 @@
           border-width: 25px 0px 25px 25px;
           height: 0px;
           width: 0px;
+         cursor: pointer;
         }
       
         .right-arrow:hover {
