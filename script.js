@@ -502,6 +502,8 @@ jumpLinks.forEach(link => {
           viewSelection.src = selectedImg;
           // scriptView.classList.toggle('view');
           scriptView.classList.remove('showScripture');
+          scriptView.classList.remove('showLongScripture');
+          console.log("the scriptView class is: ", scriptView.className);
         }
       })
     }
