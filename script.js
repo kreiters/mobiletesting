@@ -533,6 +533,7 @@ jumpLinks.forEach(link => {
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function seriesSelect() {
+  scriptView.innerText = "";
   console.log("seriesSelect function running");
   //viewInstruct.style.display = "none";
   console.log("the scriptView class is: ", scriptView.className);
