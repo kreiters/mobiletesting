@@ -168,6 +168,7 @@ let scriptureMatrix = [{Evil: [{sun: 'Psalm 105:1,3\n"O give thanks to the Lord,
          {fri: 'Hebrews 4:16\n"Let us therefore draw near with confidence to the throne of grace, that we may receive mercy and may find grace to help in times of need."'},
           {sat: '2 Corinthians 12:9\n"My (God\'s) grace is sufficient for you, for power is perfected in your weaknesses."'},
           {bonus: 'Romans 5:20\n"The law came in so that the transgression would increase, but where sin increases My grace increases all the more."'}]},
+          
           {Wisdom: [{mon: 'Proverbs 9:10\n"The fear (awe) of the Lord is the beginning of wisdom, and knowledge of the Holy One is understanding."'},
           {tue: 'Matthew 11:19\n"Yet wisdom is vindicated by her deeds."'}, 
          {wed: '2 Timothy 3:15\n"From childhood you have known the Sacred Scriptures which are able to give you the wisdom that leads to salvation through faith which is in Jesus Christ."'},
@@ -178,10 +179,10 @@ let scriptureMatrix = [{Evil: [{sun: 'Psalm 105:1,3\n"O give thanks to the Lord,
            {bonus: '1 Corinthians 1:19-20\n"It is written, I (the Lord) will destroy the wisdom of the wise, and the cleverness of the clever I will set aside ... Has not God made foolish the wisdom of the world?"'}]},
            {Resurrection: [{mon: 'Matthew 9:36\n"Seeing the people, He (Jesus) felt compassion for them, because they were distressed and dispirited like sheep without a shepherd."'},
            {tue: 'Romans 9:33\n"Just as it is written (Isaiah 28:16), Behold, I lay in Zion a Stone of Stumbling and a Rock of Offense, and he who believes in Him will not be put to shame."'}, 
-          {wed: 'In the passage below, Jesus institutes the Lord\'s supper with bread and wine. He reveals His blood is being shed for the forgiveness of sin for many. And our Savior announces that one would betray Him while one would deny Him three times:\n\n Mark 14:17-31\n17 When evening came, Jesus arrived with the Twelve. 18 While they were reclining at the table eating, he said, “Truly I tell you, one of you will betray me—one who is eating with me.” 19 They were saddened, and one by one they said to him, “Surely you don’t mean me?” 20 “It is one of the Twelve,” he replied, “one who dips bread into the bowl with me. 21 The Son of Man will go just as it is written about him. But woe to that man who betrays the Son of Man! It would be better for him if he had not been born.” 22 While they were eating, Jesus took bread, and when he had given thanks, he broke it and gave it to his disciples, saying, “Take it; this is my body.” 23 Then he took a cup, and when he had given thanks, he gave it to them, and they all drank from it. 24 “This is my blood of the covenant, which is poured out for many,” he said to them. 25 “Truly I tell you, I will not drink again from the fruit of the vine until that day when I drink it new in the kingdom of God.” 26 When they had sung a hymn, they went out to the Mount of Olives.\n\n Jesus Predicts Peter’s Denial\n 27 “You will all fall away,” Jesus told them, “for it is written: “‘I will strike the shepherd, and the sheep will be scattered.’ 28 But after I have risen, I will go ahead of you into Galilee.” 29 Peter declared, “Even if all fall away, I will not.” 30 “Truly I tell you,” Jesus answered, “today—yes, tonight—before the rooster crows twice you yourself will disown me three times.” 31 But Peter insisted emphatically, “Even if I have to die with you, I will never disown you.” And all the others said the same."'},
+          {wed: 'In Mark 14:17-31, Jesus institutes the Lord\'s supper with bread and wine. He reveals His blood is being shed for the forgiveness of sin for many. And our Savior announces that one would betray Him while one would deny Him three times'},
           {thu: 'Luke 22:14-15\n"And when the hour had come He reclined at table and the Apostles with Him, and He said to them, I have earnestly desired to eat this passover with you before I suffer."'}, 
           {fri: 'Mark 15:24\n"And they crucified Him, and divided up His garments among themselves casting lots for them, to decide what each would take."'},
-           {sat: 'In the passage below, a man asked for the body of Jesus. He took it down, wrapped it in linen cloth, laid it in a tomb. Women who had come with Him from Galilee followed after.\n\nLuke 23:50-56\n"50 Now there was a man named Joseph, a member of the Council, a good and upright man, 51 who had not consented to their decision and action. He came from the Judean town of Arimathea, and he himself was waiting for the kingdom of God. 52 Going to Pilate, he asked for Jesus’ body. 53 Then he took it down, wrapped it in linen cloth and placed it in a tomb cut in the rock, one in which no one had yet been laid. 54 It was Preparation Day, and the Sabbath was about to begin. 55 The women who had come with Jesus from Galilee followed Joseph and saw the tomb and how his body was laid in it. 56 Then they went home and prepared spices and perfumes. But they rested on the Sabbath in obedience to the commandment."'},
+           {sat: 'In Luke 23:50-56, a man asked for the body of Jesus. He took it down, wrapped it in linen cloth, laid it in a tomb. Women who had come with Him from Galilee followed after.'},
            {sun: 'Matthew 21:9\n"The crowds going ahead of Him, and those who followed were shouting \'Hosanna to the Son of David: Blessed be He who comes in the name of the Lord, Hosanna in the highest!\'"'},
             {bonus: 'Matthew 28:5,6,18-20\n"5 The angel said to the women, “Do not be afraid, for I know that you are looking for Jesus, who was crucified. 6 He is not here; he has risen, just as he said. Come and see the place where he lay. 18 Then Jesus came to them and said, \'All authority in heaven and on earth has been given to me. 19 Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, 20 and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end of the age.\'"'}]},
           {Rewards: [{sun: 'Christ\'s Reward\n\nRevelation 22:12\n"Behold I am coming quickly and My reward is with me"'}, 
@@ -192,14 +193,6 @@ let scriptureMatrix = [{Evil: [{sun: 'Psalm 105:1,3\n"O give thanks to the Lord,
          {fri: 'The Crown of Glory\n\n1 Peter 5:4\n"When the Chief Shepherd appears, you will receive the crown of glory."'},
           {sat: 'The Crown of Thorns\n\nMatthew 27:29\n"And after weaving a crown of thorns they put it on Jesus\' head."'},
           {bonus: '1 Peter 3:15\n"But set apart Christ Jesus in your heart, always being ready to give a reason to everyone who asks you to give an account for the HOPE that is in you."'}]}];
-
-let resurrectionDaysArray = ["Palm Sunday", "Good Shepherd Monday", "Zion's Cornerstone Tuesday",
-"Lord's Supper Wednesday", "Passover Thursday", "Crucifixion Friday", "Burial Saturday", "Resurrection Sunday!"];
-let resurrectionDaysMatrix = [{0: {prev: "7", next: "1"}}, {1: {prev: "0", next: "2"}},
- {2: {prev: "1", next: "3"}}, {3: {prev: "2", next: "4"}},
-  {4: {prev: "3", next: "5"}}, {5: {prev: "4", next: "6"}},
-   {6: {prev: "5", next: "7"}}, {7: {prev: "6", next: "0"}}];
-let resurrectionShortDaysArray = ["sun", "mon", "tue", "wed", "thu", "fri", "sat", "bonus"];
 
 let daysArray = ["Sacred Sunday", "Marvelous Monday", "Terrific Tuesday",
  "Wonderful Wednesday", "Thankful Thursday", "Fabulous Friday", "Satisfying Saturday"];
@@ -222,7 +215,7 @@ viewSelection.innerHTML = "";
 //prevBtn.innerHTML = "";//clears day from button
 //nextBtn.innerHTML = "";
 let dailyScript;
-let scriptView = document.getElementById("scripture");//this is the element where the scripture appears
+let scriptView = document.getElementById("scripture");
 let viewInstruct = document.getElementById("show-instructions");
 let quoteMatrix = [{Evil: [{sun: 'QUOTE:\n\n"God would rather transform the EVIL man than eradicate him."\n(Billy Graham)'}, 
     {mon: 'QUOTE:\n\n"Satan is EVIL in himself."\n(Peter Nii Korley)'},
@@ -439,20 +432,6 @@ function getState() {//added this function to load previous series selections wh
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 window.onload = function() {
-  if (selection == "Resurrection") {
-    displayedDay.innerHTML = resurrectionDaysArray[day];
-    if (day == "0") {
-        prevDay = "7";
-        console.log(prevDay);
-    }
-    if (day == "7") {
-        nextDay = "0";
-    }
-    //prevBtn.innerHTML += shortDaysArray[prevDay];//adds day to button
-    //nextBtn.innerHTML += shortDaysArray[nextDay];
-    viewInstruct.style.display = "block";
-  }
-  else {
     displayedDay.innerHTML = daysArray[day];
     if (day == "0") {
         prevDay = "6";
@@ -464,8 +443,6 @@ window.onload = function() {
     //prevBtn.innerHTML += shortDaysArray[prevDay];//adds day to button
     //nextBtn.innerHTML += shortDaysArray[nextDay];
     viewInstruct.style.display = "block";
-  }
-    
 }
 
 menuBtn.addEventListener('click', event => {
@@ -502,8 +479,6 @@ jumpLinks.forEach(link => {
           viewSelection.src = selectedImg;
           // scriptView.classList.toggle('view');
           scriptView.classList.remove('showScripture');
-          scriptView.classList.remove('showLongScripture');
-          console.log("the scriptView class is: ", scriptView.className);
         }
       })
     }
@@ -511,21 +486,11 @@ jumpLinks.forEach(link => {
     // resetting all day variables to the current day after a new series is selected
     let revertDay = d.getDay();
     console.log("revert day is: ", revertDay);
-    if (selection == "Resurrection") {//set day name different if the vitamin selection is Resurrection
-      displayedDay.innerHTML = resurrectionDaysArray[revertDay];
-      day = d.getDay();
-      currentDay = day;
-      prevDay = ((day - 1));
-      nextDay = ((day + 1));
-    }
-    else {
-      displayedDay.innerHTML = daysArray[revertDay];
-      day = d.getDay();
-      currentDay = day;
-      prevDay = ((day - 1));
-      nextDay = ((day + 1));
-    }
-    
+    displayedDay.innerHTML = daysArray[revertDay];
+    day = d.getDay();
+    currentDay = day;
+    prevDay = ((day - 1));
+    nextDay = ((day + 1));
   });
 });
 
@@ -535,147 +500,91 @@ jumpLinks.forEach(link => {
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function seriesSelect() {
-  scriptView.innerText = "";
   console.log("seriesSelect function running");
   //viewInstruct.style.display = "none";
   console.log("the scriptView class is: ", scriptView.className);
   document.getElementById("myDropdown").classList.toggle("show");
-}
+  }
   
-// Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-  //   console.log(daysArray[day]);
-  //   console.log(viewSelection)//display what was selected
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
+  // Close the dropdown menu if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+    //   console.log(daysArray[day]);
+    //   console.log(viewSelection)//display what was selected
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
       }
     }
   }
-}
   
-function prev() {
-    //console.log("the days matrix is: ", daysMatrix[day]);
-  if (selection == "Resurrection") {//added code to accomidate a bonus day (two Sundays)
-    if (day == "0") {
-      day = 7;//was 6
-      console.log("The day was 0");
-      currentDay = 7;// was 6
-      prevDay = (resurrectionDaysMatrix[currentDay][currentDay].prev);//chgd from daysMatrix
-      nextDay = (resurrectionDaysMatrix[currentDay][currentDay].next);//chgd from daysMatrix
-      // nextDay = "0";
-      // console.log("The current day is: ", daysArray[day]);
-      // console.log("The prev day is: ", prevDay);
-      // console.log("The next day is: ", nextDay);
-
-      displayedDay.innerHTML = resurrectionDaysArray[currentDay];
-      // prevBtn.innerHTML = shortDaysArray[prevDay];
-      // nextBtn.innerHTML = shortDaysArray[nextDay];
-      updateScripture()
-    }
-    else {
-      day = day - 1;
-      
-      currentDay = currentDay - 1;
-      prevDay = (resurrectionDaysMatrix[currentDay][currentDay].prev);//chgd from daysMatrix
-      nextDay = (resurrectionDaysMatrix[currentDay][currentDay].next);//chgd from daysMatrix
-      displayedDay.innerHTML = resurrectionDaysArray[currentDay];
-      updateScripture()    
-    }
-  }
-  else {
-    if (day == "0") {
-      day = 6;
-      console.log("The day was 0");
-      currentDay = 6;
-      prevDay = (daysMatrix[currentDay][currentDay].prev);
-      nextDay = (daysMatrix[currentDay][currentDay].next);
-      // nextDay = "0";
-      // console.log("The current day is: ", daysArray[day]);
-      // console.log("The prev day is: ", prevDay);
-      // console.log("The next day is: ", nextDay);
-
-      displayedDay.innerHTML = daysArray[currentDay];
-      // prevBtn.innerHTML = shortDaysArray[prevDay];
-      // nextBtn.innerHTML = shortDaysArray[nextDay];
-      updateScripture()
-    }
-    else {
-      day = day - 1;
-      
-      currentDay = currentDay - 1;
-      prevDay = (daysMatrix[currentDay][currentDay].prev);
-      nextDay = (daysMatrix[currentDay][currentDay].next);
-      displayedDay.innerHTML = daysArray[currentDay];
-      updateScripture()
-    }
-  }
-  
-}
-
-function next() {
+  function prev() {
       //console.log("the days matrix is: ", daysMatrix[day]);
-  if (selection == "Resurrection") {//added code to accomidate a bonus day (two Sundays)
-    if (day == "7") {//was 6
-      day = 0;
-      console.log("The day was 6");
-      currentDay = 0;
-      prevDay = (resurrectionDaysMatrix[currentDay][currentDay].prev);//chgd from daysMatrix
-      nextDay = (resurrectionDaysMatrix[currentDay][currentDay].next);//chgd from daysMatrix
-      // nextDay = "0";
-      // console.log("The current day is: ", daysArray[day]);
-      // console.log("The prev day is: ", prevDay);
-      // console.log("The next day is: ", nextDay);
+    if (day == "0") {
+        day = 6;
+        console.log("The day was 0");
+        currentDay = 6;
+        prevDay = (daysMatrix[currentDay][currentDay].prev);
+        nextDay = (daysMatrix[currentDay][currentDay].next);
+        // nextDay = "0";
+        // console.log("The current day is: ", daysArray[day]);
+        // console.log("The prev day is: ", prevDay);
+        // console.log("The next day is: ", nextDay);
 
-      displayedDay.innerHTML = resurrectionDaysArray[currentDay];
-      // prevBtn.innerHTML = shortDaysArray[prevDay];
-      // nextBtn.innerHTML = shortDaysArray[nextDay];
-      updateScripture()
-      
-    }
-    else {
-      day = day + 1;
-      
-      currentDay = currentDay + 1;
-      prevDay = (resurrectionDaysMatrix[currentDay][currentDay].prev);
-      nextDay = (resurrectionDaysMatrix[currentDay][currentDay].next);
-      displayedDay.innerHTML = resurrectionDaysArray[currentDay];
-      updateScripture()   
-    }
-  }
-  else {
-    if (day == "6") {
-      day = 0;
-      console.log("The day was 6");
-      currentDay = 0;
-      prevDay = (daysMatrix[currentDay][currentDay].prev);
-      nextDay = (daysMatrix[currentDay][currentDay].next);
-      // nextDay = "0";
-      // console.log("The current day is: ", daysArray[day]);
-      // console.log("The prev day is: ", prevDay);
-      // console.log("The next day is: ", nextDay);
+        displayedDay.innerHTML = daysArray[currentDay];
+        // prevBtn.innerHTML = shortDaysArray[prevDay];
+        // nextBtn.innerHTML = shortDaysArray[nextDay];
+        updateScripture()
+        
 
-      displayedDay.innerHTML = daysArray[currentDay];
-      // prevBtn.innerHTML = shortDaysArray[prevDay];
-      // nextBtn.innerHTML = shortDaysArray[nextDay];
-      updateScripture()
-      
     }
-    else {
-      day = day + 1;
-      
-      currentDay = currentDay + 1;
-      prevDay = (daysMatrix[currentDay][currentDay].prev);
-      nextDay = (daysMatrix[currentDay][currentDay].next);
-      displayedDay.innerHTML = daysArray[currentDay];
-      updateScripture()
-    }
-  }
   
+    else {
+        day = day - 1;
+        
+        currentDay = currentDay - 1;
+        prevDay = (daysMatrix[currentDay][currentDay].prev);
+        nextDay = (daysMatrix[currentDay][currentDay].next);
+        displayedDay.innerHTML = daysArray[currentDay];
+        updateScripture()
+        
+    }
+  }
+
+  function next() {
+        //console.log("the days matrix is: ", daysMatrix[day]);
+    if (day == "6") {
+        day = 0;
+        console.log("The day was 6");
+        currentDay = 0;
+        prevDay = (daysMatrix[currentDay][currentDay].prev);
+        nextDay = (daysMatrix[currentDay][currentDay].next);
+        // nextDay = "0";
+        // console.log("The current day is: ", daysArray[day]);
+        // console.log("The prev day is: ", prevDay);
+        // console.log("The next day is: ", nextDay);
+
+        displayedDay.innerHTML = daysArray[currentDay];
+        // prevBtn.innerHTML = shortDaysArray[prevDay];
+        // nextBtn.innerHTML = shortDaysArray[nextDay];
+        updateScripture()
+        
+    }
+   
+    else {
+        day = day + 1;
+        
+        currentDay = currentDay + 1;
+        prevDay = (daysMatrix[currentDay][currentDay].prev);
+        nextDay = (daysMatrix[currentDay][currentDay].next);
+        displayedDay.innerHTML = daysArray[currentDay];
+        updateScripture()
+        
+    }
 }
 
 //this function opens the scripture when the vitamin front is clicked
@@ -702,32 +611,15 @@ function updateScripture() {
   scriptureMatrix.forEach(script => {
     //console.log(image)
     if (script[selection]) {
-      console.log(script[selection]);//log out array of scriptures
+      console.log(script[selection]);
        script[selection].forEach(daily => {
-        if (selection == "Resurrection") {//added code to accomidate a bonus day (two Sundays)
-          if (daily[resurrectionShortDaysArray[currentDay]]) {//chgd shortDaysArray to resurrectionShortDaysArray
-            console.log(daily[resurrectionShortDaysArray[currentDay]]);//logs out the scripture for the selected day
-            dailyScript = daily[resurrectionShortDaysArray[currentDay]];
-            if (currentDay == "3" || currentDay == "6" || currentDay == "7") {//day 3 scripture in resurrection series is a long scripture
-              scriptView.classList = ("showLongScripture");
-              scriptView.innerHTML = daily[resurrectionShortDaysArray[currentDay]];
-            }
-            else {//other scriptures are normal length
-              scriptView.classList = ("showScripture");
-              scriptView.innerHTML = daily[resurrectionShortDaysArray[currentDay]];
-            }
-          }
-        }
-        else {
-          if (daily[shortDaysArray[currentDay]]) {//original code for typical 7 day week
-           console.log(daily[shortDaysArray[currentDay]]);//logs out the scripture for the selected day
+         if (daily[shortDaysArray[currentDay]]) {
+           console.log(daily[shortDaysArray[currentDay]]);
            dailyScript = daily[shortDaysArray[currentDay]];
           scriptView.innerHTML = daily[shortDaysArray[currentDay]];
          }
 
-        }
-
-       });
+       })
       
     }
 
