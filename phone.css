@@ -605,9 +605,9 @@
     display: none;
     position: absolute;
     left: 0;
-    right: 300px;
+    right: 0;
     margin: auto;
-    bottom: 200px;
+    bottom: 10px;
     width: 110px;
     height: 50px;
     align-items: center;
@@ -624,6 +624,7 @@
     left: 0;
     right: 0;
     margin: auto;
+    margin-top: 40px;
     bottom: 10px;
     width: 120px;
     height: 60px;
