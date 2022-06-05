@@ -627,6 +627,7 @@
     bottom: 10px;
     width: 120px;
     height: 60px;
+    text-align: center;
     align-items: center;
     justify-content: center;
     border-radius: 30%/50%;
@@ -1224,6 +1225,7 @@
     bottom: 10px;
     width: 120px;
     height: 60px;
+    text-align: center;
     align-items: center;
     justify-content: center;
     border-radius: 30%/50%;
@@ -1824,6 +1826,7 @@
     bottom: 10px;
     width: 120px;
     height: 60px;
+    text-align: center;
     align-items: center;
     justify-content: center;
     border-radius: 30%/50%;
