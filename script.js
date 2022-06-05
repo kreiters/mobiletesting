@@ -435,7 +435,7 @@ viewSelection.addEventListener('click', event => {
   }
   else{
     console.log("the scriptView class name did not contain bonus-style, rather: ", scriptView.className);
-    // displayedDay.innerHTML = daysArray[day];
+    displayedDay.innerHTML = daysArray[day];
     // event.preventDefault();
   }
   event.preventDefault();
@@ -747,6 +747,7 @@ function openBonus() {//should run when bonus button is clicked
   console.log("the scriptView classname is: ", scriptView.className);
   console.log("the displayedDay innerHTML = ", displayedDay.innerHTML);
   previousDisplayedDay = displayedDay.innerHTML;
+  console.log("the previousDisplayedDay = ", previousDisplayedDay);
   let isBonus = scriptView.classList.contains("bonus-style");
   console.log("isBonus variable = ", isBonus);
   scriptView.setAttribute("class", isBonus ? "scripture" : "scripture showScripture bonus-style");
@@ -766,7 +767,13 @@ function openBonus() {//should run when bonus button is clicked
       }); 
     }
   });
-  displayedDay.innerHTML = bonusDaysArray[bonusDay];
-  console.log("the displayedDay innerHTML = ", displayedDay.innerHTML);
-  console.log("the previousDisplayedDay = ", previousDisplayedDay);
+  if (scriptView.classList.contains("bonus-style")) {
+    displayedDay.innerHTML = bonusDaysArray[bonusDay];
+    console.log("the displayedDay innerHTML = ", displayedDay.innerHTML);
+    console.log("the previousDisplayedDay = ", previousDisplayedDay);
+  }
+  else {
+    displayedDay.innerHTML = daysArray[day];
+  }
+  
 }
