@@ -403,11 +403,13 @@
         }
       
         .scripture {
-          display: none;
+          /* display: none; */
+          visibility: hidden;
         }
-      
+      /* trying to use visibility instead of display so that space stays the same for the elements */
         .showScripture{
-          display: flex;
+          visibility: visible;
+          /* display: flex; */
           justify-content: center;
           align-items: center;
           font-size: 1.05rem;
@@ -1001,11 +1003,13 @@
         }
       
         .scripture {
-          display: none;
+          /* display: none; */
+          visibility: hidden;
         }
       
         .showScripture{
-          display: flex;
+          visibility: visible;
+          /* display: flex; */
           justify-content: center;
           align-items: center;
           font-size: 1.05rem;
@@ -1592,11 +1596,13 @@
         }
       
         .scripture {
-          display: none;
+          /* display: none; */
+          visibility: hidden;
         }
       
         .showScripture{
-          display: flex;
+          visibility: visible;
+          /* display: flex; */
           justify-content: center;
           align-items: center;
           font-size: 1.05rem;
